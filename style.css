@@ -51,12 +51,12 @@ main > ul {
     list-style: none;
 }
 
-main > ul > li > a {
+main > div > a {
     text-decoration: none;
     color: plum;
 }
 
-main > ul > li > a:hover {
+main > div > a:hover {
     color: white;
 
 }
