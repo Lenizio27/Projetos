@@ -6,12 +6,6 @@
     100% {}
 }
 
-@keyframes block {
-    0% {background-color: gray;}
-    50% {background-color: rgba(128, 0, 128, 0.397);}
-    100% {background-color: gray;}
-}
-
 
 body{
     height: 98vh;
@@ -53,11 +47,6 @@ main {
     padding: 5px;
 }
 
-.block {
-    margin: 5px;
-    padding: 10px;
-}
-
 main > ul {
     list-style: none;
 }
@@ -70,4 +59,9 @@ main > ul > li > a {
 main > ul > li > a:hover {
     color: white;
 
+}
+
+.block {
+    margin: 5px;
+    padding: 10px;
 }
