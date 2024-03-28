@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+@keyframes anima {
+    0% {}
+    50% {transform: scale(1.2);}
+    100% {}
+}
+audio :hover {
+    border: 20px solid red;
+}
+body{
+    background-image: url('image/image1.jpg');
+    background-position: ;
+    color: white;
+}
+
+img {
+    width: 150px ;
+    margin: auto;
+    border-radius: 15px;
+
+    animation-name: anima;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+main {
+    text-align: center;
+}
