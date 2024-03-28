@@ -47,10 +47,10 @@ main {
     padding: 5px;
 }
 
-main > ul {
-    list-style: none;
+main > div.link:hover {
+    transform: scale(1.2);
+    transition: 1s;
 }
-
 main > div > a {
     text-decoration: none;
     color: plum;
@@ -58,7 +58,7 @@ main > div > a {
 
 main > div > a:hover {
     color: white;
-
+    transition: 1s;
 }
 
 .block {
