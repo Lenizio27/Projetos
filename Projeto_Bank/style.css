@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+:root{
+    --cor0: #00CC73;
+    --cor1: #008C4F;
+    --cor2: #7DE5B0;
+    --cor3: #E0FFDE;
+    --cor4: #F5F09E;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* --------------------header------------------------ */
+
+header > nav{
+    display: flex;
+    justify-content: space-around;
+}
+
+header > nav > img {
+
+}
+
+header > nav > .barra_pesquisa {
+
+}
+
+header > nav > .alert {
+    
+}
