@@ -67,17 +67,24 @@ header > nav > .alert {
     
 }
 
-header .saldo {
+header 
+
+/*-----------------------------------------main------------------------*/
+
+main{
+    margin-top: 5px;
+}
+
+.saldo {
     background-color: var(--cor0);
     height: 25%;
     border-radius: 15px;
     padding: 5px 10px;
 }
 
-/*-----------------------------------------main------------------------*/
-
-main{
-    margin-top: 5px;
+.saldo .top {
+    display: flex;
+    justify-content: space-between;
 }
 
 #dia{
@@ -90,7 +97,7 @@ main{
 }
 
     #pix{
-        background-color: var(--cor1);
+        background-color: var(--cor0);
     }
 
 .cards{
