@@ -77,14 +77,14 @@ main{
     padding: 5px 10px;
 }
 
-<<<<<<< HEAD
+
 main .saldo .cartao {
     display: flex;
     justify-content: center;
     background-color: #fff;
     border-radius: 15px;
     padding: 5px 0px;
-=======
+
 .cartao{
     background-color: #ffff;
     display: flex;
@@ -99,7 +99,7 @@ main .saldo .cartao {
 
 .cartao > p{
     margin: auto;
->>>>>>> f90eff5a205c29dd111c4989dc1b24c93cb64a4c
+
 }
 
 .saldo .top {
