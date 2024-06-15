@@ -72,17 +72,34 @@ main{
 
 .saldo {
     background-color: var(--cor0);
-    height: 40vh;
+    max-height: vh;
     border-radius: 15px;
     padding: 5px 10px;
 }
 
+<<<<<<< HEAD
 main .saldo .cartao {
     display: flex;
     justify-content: center;
     background-color: #fff;
     border-radius: 15px;
     padding: 5px 0px;
+=======
+.cartao{
+    background-color: #ffff;
+    display: flex;
+    margin: auto;
+    border-radius: 15px;
+    margin-top: 15%;
+    margin-bottom: 5%;
+    padding: 10px;
+    max-width: 85%;
+    
+}
+
+.cartao > p{
+    margin: auto;
+>>>>>>> f90eff5a205c29dd111c4989dc1b24c93cb64a4c
 }
 
 .saldo .top {
@@ -122,17 +139,4 @@ section h3{
     
 }
 
-.cartao{
-    background-color: #ffff;
-    display: flex;
-    margin: auto;
-    border-radius: 10px;
-    padding: 10px;
-    width: 85%;
-    position: relative;
-    top: 150px;
-}
 
-.cartao > p{
-    margin: auto;
-}
