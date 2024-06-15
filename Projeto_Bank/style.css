@@ -6,15 +6,8 @@
     --cor2: #7DE5B0;
     --cor3: #E0FFDE;
     --cor4: #F5F09E;
-<<<<<<< HEAD
-<<<<<<< HEAD
     --cor5: #F2F2F0;
-=======
-    --cor5: #a8a6a6;
->>>>>>> 1326441ffa161afc0ec4778c4145f2a160c70d78
-=======
-    --cor5: #a8a6a6;
->>>>>>> 1326441ffa161afc0ec4778c4145f2a160c70d78
+    --cor6: #a8a6a6;
 }
 
 * {
@@ -30,7 +23,7 @@ body {
 /* --------------------header------------------------ */
 
 header {
-    padding: 0px 5px;
+
 }
 
 header img {
@@ -41,16 +34,18 @@ header img {
     border-radius: 50%;
 }
 
+header img:hover {
+    background-color: var(--cor6);
+    transition: 0.2s;
+}
+
 header > nav > .barra_pesquisa {
     border: none;
     padding: 5px;
     
 }
 
-header img:hover {
-    background-color: lightgray;
-    transition: 0.2s;
-}
+
 
 header > nav{
     display: flex;
@@ -77,9 +72,25 @@ main{
 
 .saldo {
     background-color: var(--cor0);
-    height:30vh;
+    max-height: vh;
     border-radius: 15px;
     padding: 5px 10px;
+}
+
+.cartao{
+    background-color: #ffff;
+    display: flex;
+    margin: auto;
+    border-radius: 15px;
+    margin-top: 15%;
+    margin-bottom: 5%;
+    padding: 10px;
+    max-width: 85%;
+    
+}
+
+.cartao > p{
+    margin: auto;
 }
 
 .saldo .top {
@@ -113,24 +124,10 @@ section h3{
     align-items: center;
     justify-content: center;
     border-radius: 15px;
-    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.5);
     background-color: var(--cor5);
     padding: 10px;
     text-wrap: wrap;
     
 }
 
-.cartao{
-    background-color: #ffff;
-    display: flex;
-    margin: auto;
-    border-radius: 10px;
-    padding: 10px;
-    max-width: 85%;
-    position: relative;
-    top: 50%;
-}
 
-.cartao > p{
-    margin: auto;
-}
