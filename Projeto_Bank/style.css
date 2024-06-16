@@ -75,9 +75,24 @@ main{
     background-color: var(--cor0);
     max-height: vh;
     border-radius: 15px;
-    padding: 5px 10px;
+    padding: 15px;
+    color: white;
 }
 
+.saldo a {
+    text-decoration: none;
+    color: white;
+    font-size: 13px;
+}
+
+.saldo h2 {
+    padding: 10px 0px;
+}
+
+.saldo #CDI {
+    font-size: 13px;
+    color: #b9ebd1;
+}
 
 main .saldo .cartao {
     display: flex;
@@ -85,7 +100,9 @@ main .saldo .cartao {
     background-color: #fff;
     border-radius: 15px;
     padding: 5px 0px;
+    color: black;
 }
+
 .cartao{
     background-color: #ffff;
     display: flex;
@@ -100,7 +117,7 @@ main .saldo .cartao {
 
 .cartao > p{
     margin: auto;
-
+    font-size: 13px;
 }
 
 .saldo .top {
