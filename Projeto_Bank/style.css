@@ -126,7 +126,9 @@ main .saldo .cartao {
 }
 
 #dia{
-
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
 }
 #bcima{
     display: flex;
@@ -157,4 +159,15 @@ section h3{
     
 }
 
+#bbaixo{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.bcards{
+    width: 100%;
+    background-color: var(--cor6);
+    padding: 15px;
+    border-radius: 15px;
+}
 
