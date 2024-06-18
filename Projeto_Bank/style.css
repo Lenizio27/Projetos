@@ -24,7 +24,7 @@ body {
 /* --------------------header------------------------ */
 
 header {
-
+    
 }
 
 header img {
@@ -166,9 +166,15 @@ section h3{
     gap: 1rem;
 }
 .bcards{
-    width: 100%;
-    background-color: var(--cor6);
+    background-color: var(--cor5);
     padding: 15px;
     border-radius: 15px;
 }
 
+/* -----------------Footer----------------- */
+
+footer {
+    display: flex;
+    height: 100px;
+    background-color: var(--cor5);
+}
