@@ -16,7 +16,8 @@
     font-family: sans-serif;
 }
 
-body {
+
+.container {
     margin: auto;
     width: 90%;
 }
@@ -171,10 +172,32 @@ section h3{
     border-radius: 15px;
 }
 
+.sug {
+    display: flex;
+    justify-content: space-around;
+}
+
 /* -----------------Footer----------------- */
 
 footer {
-    display: flex;
+    border-radius: 40px 40px 0px 0px;
+    position: fixed;
+    width: 100%;
     height: 100px;
-    background-color: var(--cor5);
+    background-color: #f2f2f0be;
+    bottom: 0px;
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+}
+
+footer nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+footer .home_footer {
+    background-color: #00CC73;
+    border-radius: 50%;
 }
