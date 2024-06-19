@@ -184,7 +184,7 @@ section h3{
 
 footer {
     border-radius: 40px 40px 0px 0px;
-    position: fixed;
+    position: relative;
     width: 100%;
     height: 100px;
     background-color: #f2f2f0be;
@@ -192,6 +192,7 @@ footer {
     justify-content: space-around;
     display: flex;
     align-items: center;
+    margin: auto;
 }
 
 footer nav {
