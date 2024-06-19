@@ -10,10 +10,13 @@
     --cor6: #a8a6a6;
 }
 
+body
+
 * {
     margin: 0px;
     padding: 0px;
     font-family: sans-serif;
+    max-width: 900px;
 }
 
 
@@ -200,4 +203,5 @@ footer nav {
 footer .home_footer {
     background-color: #00CC73;
     border-radius: 50%;
+    padding: 10px;
 }
