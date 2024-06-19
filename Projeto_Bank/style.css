@@ -2,7 +2,7 @@
 
 :root{
     --cor0: #00CC73;
-    --cor1: #1BA284;
+    --cor1: #0b996e;
     --cor2: #7DE5B0;
     --cor3: #E0FFDE;
     --cor4: #F5F09E;
@@ -28,7 +28,11 @@ body
 /* --------------------header------------------------ */
 
 header {
-    
+    position: fixed;
+    width: 100%;
+    background-color:#f2f2f0be;
+    filter: blur(100%);
+
 }
 
 header img {
@@ -76,7 +80,7 @@ main{
 }
 
 .saldo {
-    background-color: var(--cor0);
+    background-color: var(--cor1);
     max-height: vh;
     border-radius: 15px;
     padding: 15px;
@@ -142,7 +146,7 @@ main .saldo .cartao {
 }
 
     #pix{
-        background-color: var(--cor0);
+        background-color: var(--cor1);
     }
 
 section h3{
@@ -171,7 +175,7 @@ section h3{
 }
 .bcards{
     background-color: var(--cor5);
-    padding: 15px;
+    padding: 20px 15px;
     border-radius: 15px;
 }
 
@@ -203,7 +207,7 @@ footer nav {
 }
 
 footer .home_footer {
-    background-color: #00CC73;
+    background-color: var(--cor1);
     border-radius: 50%;
     padding: 2px;
 }
