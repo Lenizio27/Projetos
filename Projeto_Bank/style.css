@@ -2,7 +2,7 @@
 
 :root{
     --cor0: #00CC73;
-    --cor1: #0b996e;
+    --cor1: #0b9912;
     --cor2: #7DE5B0;
     --cor3: #E0FFDE;
     --cor4: #F5F09E;
@@ -10,13 +10,16 @@
     --cor6: #a8a6a6;
 }
 
-body
+body{
+    
+}
 
 * {
     margin: 0px;
     padding: 0px;
     font-family: sans-serif;
     max-width: 900px;
+    
 }
 
 
@@ -53,8 +56,6 @@ header > nav > .barra_pesquisa {
     padding: 5px;
     
 }
-
-
 
 header > nav{
     display: flex;
