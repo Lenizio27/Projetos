@@ -2,7 +2,7 @@
 
 :root{
     --cor0: #00CC73;
-    --cor1: #0b9912;
+    --cor1: #00a560;
     --cor2: #7DE5B0;
     --cor3: #E0FFDE;
     --cor4: #F5F09E;
@@ -10,9 +10,6 @@
     --cor6: #a8a6a6;
 }
 
-body{
-    
-}
 
 * {
     margin: 0px;
@@ -21,7 +18,9 @@ body{
     max-width: 900px;
     
 }
-
+body{
+    margin: auto;
+}
 
 .container {
     margin: auto;
