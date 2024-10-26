@@ -1,0 +1,172 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Lora:ital,wght@0,400..700;1,400..700&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+:root {
+    --cor1: #D95276;
+    --cor2: #F2EDA2;
+    --cor3: #F2B56B;
+    --cor4: #F2A7A7;
+    --cor5: #008000;
+    --cor6: #0D0D0D;
+}
+
+#corpo{
+    max-width: 1500px;
+    margin: auto;
+}
+
+/* Header */
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 120px;
+}
+
+header .element-header{
+    width: 30%;
+}
+
+header .element-header ul li:hover{
+    border-bottom: 1px solid var(--cor1);
+}
+
+header div img{
+    max-width: 120px;
+}
+
+header ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+
+header ul li a{
+    text-decoration: none;color: var(--cor5);
+}
+
+header .login_header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header .login_header a {
+    margin: 0px 10px;
+    text-decoration: none;
+}
+
+header .login_header .Create_Acount{
+    padding: 7px;
+    border-radius: 15px;
+    background-color: var(--cor4);
+    color: var(--cor2);
+    transition: 0.5s;
+}
+header .login_header .Create_Acount:hover{
+    background-color: var(--cor2);
+    color: var(--cor1);
+}
+
+@media(width < 800px){
+    header{
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        background-image: linear-gradient(to right, var(--cor1), var(--cor2));
+        
+    }
+    header .element-header{
+        width: auto;
+        padding: 5px;
+    }
+
+    header .element-header a{
+        padding: 0px 5px;
+    }
+
+    header .element-header ul li:hover{
+        border-bottom: 1px solid #fff;
+    }
+    
+}
+
+/* MAIN */
+
+main{
+    display: flex;
+    flex-direction: row;
+}
+
+main div{
+    width: 50%;
+}
+
+
+.slider{
+    margin: 0px auto;
+    width: 800px;
+    height: 400px;
+    overflow: hidden;
+}
+
+.slides{
+    width: 400%;
+    display: flex;
+}
+
+.slides input{
+    display: none;
+}
+
+.slide{
+    width: 25%;
+    position: relative;
+}
+
+.slide img{
+    width: 400px;
+}
+
+.manual-navegation{
+    position: absolute;
+    margin-top: -40px;
+    display: flex;
+    justify-content: center;
+}
+
+.manual-btn{
+    border:2px solid #fff;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.manual-btn:not(:last-child){
+    margin-right: 40px;
+}
+
+.manual-btn:hover{
+    background-color: #fff;
+}
+
+#radio1:checked ~ .first{
+    margin-left: 0;
+}
+#radio2:checked ~ .first{
+    margin-left: -25%;
+}
+#radio3:checked ~ .first{
+    margin-left: 0;
+}
+#radio4:checked ~ .first{
+    margin-left: 0;
+}
