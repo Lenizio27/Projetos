@@ -22,19 +22,24 @@ body{
 }
 
 .container {
-    width: 90%;
     margin: auto;
     max-width: 900px;
+    width: 90%;
+    display: flexbox;
+    justify-content: center;
+
 }
 
 /* --------------------header------------------------ */
 
 header {
     position: fixed;
+    width: 100%;
+    display: flex;
     top: 0px;
     background-color:#f2f2f0be;
+    justify-content: center;
     
-
 }
 
 header img {
@@ -53,6 +58,8 @@ header img:hover {
 header > nav > .barra_pesquisa {
     border: none;
     padding: 5px;
+    position: relative;
+    
     
 }
 
@@ -87,6 +94,7 @@ main{
     padding: 15px;
     color: white;
     margin-top: 100px;
+
 }
 
 .saldo a {
