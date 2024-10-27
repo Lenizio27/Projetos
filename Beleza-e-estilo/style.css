@@ -118,11 +118,11 @@ main img{
 }
 
 @keyframes slides{
-    0%{background-image: url(img/unhas/unha1.jpg);}
-    25%{background-image: url(img/unhas/unha3.jpg);}
-    50%{background-image: url(img/unhas/unha2.jpg);}
-    75%{background-image: url(img/unhas/unha4.jpg);}
-    100%{background-image: url(img/unhas/unha1.jpg);}
+    0%{background-image: url(img/unhas/unha1.png);}
+    25%{background-image: url(img/unhas/unha3.png);}
+    50%{background-image: url(img/unhas/unha2.png);}
+    75%{background-image: url(img/unhas/unha4.png);}
+    100%{background-image: url(img/unhas/unha1.png);}
 }
 
 .slides{
