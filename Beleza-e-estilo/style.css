@@ -129,8 +129,8 @@ main img{
     border-radius: 10px;
     background-size: contain;
     background-repeat: no-repeat;
-    width: 550px;
-    height: 550px;
+    width: 500px;
+    height: 500px;
     animation-name: slides;
     animation-duration: 10s;
     /* animation-delay: 2s; */
