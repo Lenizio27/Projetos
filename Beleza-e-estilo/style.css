@@ -15,6 +15,9 @@
     --cor5: #008000;
     --cor6: #0D0D0D;
 }
+body{
+    font-size: 20px;
+}
 
 #corpo{
     max-width: 1500px;
@@ -95,7 +98,6 @@ header .login_header .Create_Acount:hover{
     header .element-header ul li:hover{
         border-bottom: 1px solid #fff;
     }
-    
 }
 
 /* MAIN */
@@ -103,70 +105,61 @@ header .login_header .Create_Acount:hover{
 main{
     display: flex;
     flex-direction: row;
+    padding: 5px;
 }
 
 main div{
     width: 50%;
+    padding: 5px;
 }
 
+main img{
+    width: 100px;
+}
 
-.slider{
-    margin: 0px auto;
-    width: 800px;
-    height: 400px;
-    overflow: hidden;
+@keyframes slides{
+    0%{background-image: url(img/unhas/unha1.jpg);}
+    25%{background-image: url(img/unhas/unha3.jpg);}
+    50%{background-image: url(img/unhas/unha2.jpg);}
+    75%{background-image: url(img/unhas/unha4.jpg);}
+    100%{background-image: url(img/unhas/unha1.jpg);}
 }
 
 .slides{
-    width: 400%;
-    display: flex;
-}
-
-.slides input{
-    display: none;
-}
-
-.slide{
-    width: 25%;
-    position: relative;
-}
-
-.slide img{
-    width: 400px;
-}
-
-.manual-navegation{
-    position: absolute;
-    margin-top: -40px;
-    display: flex;
-    justify-content: center;
-}
-
-.manual-btn{
-    border:2px solid #fff;
-    padding: 5px;
     border-radius: 10px;
-    cursor: pointer;
-    transition: 1s;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 550px;
+    height: 550px;
+    animation-name: slides;
+    animation-duration: 10s;
+    /* animation-delay: 2s; */
+    animation-iteration-count: infinite;
 }
 
-.manual-btn:not(:last-child){
-    margin-right: 40px;
+@media(width < 800px){
+    main{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: auto;
+        align-items: center;
+    }
+
+    main div{
+        width: auto;
+    }
+ }
+
+.Beleza-Estilo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 }
 
-.manual-btn:hover{
-    background-color: #fff;
-}
-
-#radio1:checked ~ .first{
-    margin-left: 0;
-}
-#radio2:checked ~ .first{
-    margin-left: -25%;
-}
-#radio3:checked ~ .first{
-    margin-left: 0;
-}
-#radio4:checked ~ .first{
-    margin-left: 0;
+ .Beleza-Estilo h2{
+    text-align: start;
+    font-size: 50px;
 }
