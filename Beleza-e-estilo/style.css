@@ -56,28 +56,7 @@ header ul li a{
     text-decoration: none;color: var(--cor5);
 }
 
-header .login_header{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
 
-header .login_header a {
-    margin: 0px 10px;
-    text-decoration: none;
-}
-
-header .login_header .Create_Acount{
-    padding: 7px;
-    border-radius: 15px;
-    background-color: var(--cor4);
-    color: var(--cor2);
-    transition: 0.5s;
-}
-header .login_header .Create_Acount:hover{
-    background-color: var(--cor2);
-    color: var(--cor1);
-}
 
 @media(width < 800px){
     header{
