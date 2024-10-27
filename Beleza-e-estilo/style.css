@@ -130,8 +130,8 @@ main img{
     border-radius: 10px;
     background-size: contain;
     background-repeat: no-repeat;
-    width: 350px;
-    height: 350px;
+    width: 600px;
+    height: 600px;
     animation-name: slides;
     animation-duration: 10s;
     /* animation-delay: 2s; */
@@ -149,6 +149,10 @@ main img{
 
     main div{
         width: auto;
+    }
+    .slides{
+        width: 300px;
+        height: 300px;
     }
  }
 
