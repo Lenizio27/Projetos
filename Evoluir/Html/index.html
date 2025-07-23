@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina Html</title>
+    <style>
+        img{
+            width: 200px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Pagina 100% Html</h1>
+        <nav>
+            <ul>
+                <li><a href="form.html">Formularios</a></li>
+                <li><a href="https://github.com/Lenizio27/Projetos" target="_blank">Projetos</a></li>
+            </ul>
+        </nav>
+    </header>
+    <hr>
+    <main>
+        <section id="sobre">
+            <h2>Sobre min</h2>
+            <article>
+                <p>Olá! Me chamo <strong>Lenizio</strong>, sou <em>programador</em> e estou estudando HTML.</p>
+                <p>Gosto de usar <abbr title="HyperText Markup Language">HTML</abbr> para criar páginas estruturadas.<br>Aprender bem HTML é <strong>fundamental</strong>!<hr></p>
+            </article>
+        </section>
+        <!-- 
+            tags de imagem:
+            --img
+            --picture
+            --source: usada dentro de pictura
+
+            --canvas: graficos js
+            --svg: graficos vetoriais xml
+            --figcaption: legenda(usada dentro de figure)
+            --figure: agrupa conteudo visual e legendas
+        -->
+
+        <!-- Meus Projetos -->
+        <section>
+            <h2>Meus Projetos</h2>
+            <figure>
+                <picture>
+                    <source media="" srcset= "">
+                    <img src="Image/Cubido.png" alt="Personagem Cubido">
+                </picture>
+                <figcaption>Cubido</figcaption>
+            </figure>
+        </section>
+
+        <section>
+            <h2>Grafico e desenho</h2>
+            <h3>SVG - Vetor</h3>
+            <svg width="100" height="100">
+                <circle cx="50" cy="50" r="40" fill="blue"/>
+            </svg>
+
+            <h3>Canvas</h3>
+            <canvas id="meuCanvas" width="100" height="100" style="border:1px solid #000;"></canvas>
+        </section>
+        <section>
+            <h2>Midia</h2>
+            <h3>Video</h3>
+            <video width="320" controls>
+                <source src="Video/Vídeo do WhatsApp de 2025-01-27 à(s) 18.18.11_ef9d1269.mp4" type="video/mp4">
+                Seu navegador nao suporta <!--caso o video nao rode-->
+            </video>
+            <h3>Audio</h3>
+            <audio controls>
+                <source src="" type="">
+                seu navegador nao suportar <!--parecido com video--> 
+            </audio>
+        </section>
+
+        <section>
+            <h2>informacoes</h2>
+
+            <h3>Tabela</h3>
+            <table style="border: 1px solid black;">
+                <thead>
+                    <tr>
+                        <th>Nome</th>
+                        <th>Idade</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Lucas</td>
+                        <td>25</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td>Total: 1</td>
+                    </tr>
+                </tfoot>
+            </table>
+
+            <h3>Lista Ordenada</h3>
+            <ol>
+                <li>html</li>
+                <li>css</li>
+                <li>js</li>
+            </ol>
+
+            <h3>Lista de Definicoes</h3>
+            <dl>
+                <dt>Html</dt><dd>Linguagem de marcacao</dd>
+                <dt>css</dt><dd>Estilo visual</dd>
+            </dl>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Lenizio. Todos os direitos reservados.</p>
+    </footer>
+    <script>
+        const canvas = document.getElementById("meuCanvas");
+        const ctx = canvas.getContext('2d');
+        ctx.fillStyle = 'red';
+        ctx.fillRect(10, 10, 80, 80);
+    </script>
+</body>
+</html>
